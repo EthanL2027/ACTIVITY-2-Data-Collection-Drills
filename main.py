@@ -37,7 +37,9 @@ def main():
 
     last_item = my_list.pop()
     print(last_item)
+    print(my_list)
 # The removed item is "!".
+# The list now contains ['t', 'h', 'a'].
 
     print(my_list)
 # The list now contains ['e', 'l', 'l', 'o'].
@@ -54,8 +56,6 @@ def main():
 # sort() changes the original list and returns None.
 
     print(sorted(my_list))
-# This prints a new list in ascending alphabetical order.
-
     print(my_list)
 # The original list stays in descending order because sorted() does not change it.
 
@@ -64,7 +64,6 @@ def main():
 #Part B: Tuples
 
     my_tuple = ("red", "green", "blue")
-
     print(my_tuple)
 # The tuple contains red, green, and blue.
 
@@ -113,7 +112,6 @@ def main():
 # Nothing happened and no error occurred because pear was not in the set.
 
     tropical = {"banana", "mango", "papaya"}
-
     all_fruits = my_set.union(tropical)
     print(all_fruits)
 # The result contains all unique items from both sets.
@@ -123,7 +121,6 @@ def main():
 #Part D: Dictionaries
 
     my_dict = {"name": "Sam", "age": 16, "grade": "11th"}
-
     print(my_dict)
 # The keys are name, age, and grade.
 # Their values are Sam, 16, and 11th.
